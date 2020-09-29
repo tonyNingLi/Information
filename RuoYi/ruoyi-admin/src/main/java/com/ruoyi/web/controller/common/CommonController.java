@@ -97,7 +97,7 @@ public class CommonController
     public void resourceDownload(String resource, HttpServletRequest request, HttpServletResponse response)
             throws Exception
     {
-        // 本地资源路径
+        // 本地资源路径11
         String localPath = Global.getProfile();
         // 数据库资源地址
         String downloadPath = localPath + StringUtils.substringAfter(resource, Constants.RESOURCE_PREFIX);
